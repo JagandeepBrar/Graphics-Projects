@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (opengl.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  icosphere.cpp
+..\src\icosphere.cpp(21): warning C4091: 'static ': ignored on left of '' when no variable is declared
+..\src\icosphere.cpp(31): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+..\src\icosphere.cpp(31): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+LINK : fatal error LNK1104: cannot open file 'freeglut_static.lib'

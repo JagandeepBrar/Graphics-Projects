@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (opengl.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  teapot.cpp
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(196): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(213): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(214): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(215): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(216): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(218): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(219): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(220): warning C4244: 'argument': conversion from 'float' to 'GLuint', possible loss of data
+c:\users\me\documents\git\comp4490-assignment-02\q2\src\teapot.cpp(273): warning C4018: '<': signed/unsigned mismatch
+  opengl.vcxproj -> C:\Users\me\Documents\Git\COMP4490-Assignment-02\q2\\build\COMP4490-A02Q02.exe

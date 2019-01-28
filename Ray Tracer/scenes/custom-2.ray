@@ -1,0 +1,103 @@
+SBT-raytracer 1.0
+
+camera {
+	position = (0,0,3);
+    fov = 30;
+}
+
+ambient_light {
+  color=(0.75,0.50,0.25);
+}
+
+directional_light {
+  direction=(-1,-1,-1);
+  color=(0.7,0.7,0.7);
+}
+
+point_light {
+	position = (4, 2, 8);
+	color = (.5, .5, .5);
+	constant_attenuation_coeff= 0.25;
+	linear_attenuation_coeff = 0.03372407;
+	quadratic_attenuation_coeff = 0.000045492;	
+}
+
+translate(0,-0.894534,-5.23349,
+    rotate(1,1,1,1,
+    box { 
+        material = {
+            diffuse = (0.8,0.8,0.3);
+            transmissive = (0.7,0.7,0.7);
+            index = 1.5;
+        }
+    })
+);
+
+scale(0.312566,
+    translate(0,0,-15,
+        sphere {
+            material={
+                ambient=(0.65,0.65,0.65);
+                diffuse=(0.51,0.22,0.75);
+                shininess=60.6;
+            }
+        }
+    )
+);
+
+translate(1.15027,-0.522035,-5.43002,
+  scale(0.670496,
+    sphere {
+      material={
+        ambient=( 0.2,0.2,0.2 );
+        diffuse=( 0.34,0.07,0.56 );
+        specular=( 0.4,0.4,0.4 );
+        reflective=( 0.4,0.4,0.4 );
+        shininess=122.074;
+      }
+}));
+
+translate(-0.560763,1.08614,-5.70474,
+  scale(0.636615,
+    sphere {
+      material={
+        ambient=( 0.2,0.2,0.2 );
+        diffuse=( 0.56,0.24,0.12 );
+        specular=( 0.4,0.4,0.4 );
+        reflective=( 0.4,0.4,0.4 );
+        shininess=120.889;
+      }
+}));
+
+translate(-1.1363,-1.17167,-5.38221,
+  scale(0.597582,
+    sphere {
+      material={
+        ambient=( 0.2,0.2,0.2 );
+        diffuse=( 0.04,0.56,0.28 );
+        specular=( 0.4,0.4,0.4 );
+        reflective=( 0.4,0.4,0.4 );
+        shininess=124.444;
+      }
+}));
+
+translate(0,0,-10,
+rotate(1,1,1,1,
+cylinder{ 
+	material = { 
+		diffuse = (0.8,0.3,0.1);
+		specular = (0.9,0.4,0.0);
+		shininess = 76.8;
+	}
+}));
+
+transform(
+    (-0.990617,0.122559,0.060473,0.068435),
+    (-0.059468,-0.784955,0.616693,-2.871768),
+     (0.123049,0.607310,0.784878,-32.770752),
+    (0.000000,0.000000,0.000000,1.000000),
+cone { height=1.714750; bottom_radius=0.250000; top_radius=0.250000;
+material={
+    diffuse=(0.500000,0.500000,0.500000);
+}
+})
